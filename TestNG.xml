@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >  
+<suite name="Suite1" verbose="1" >
+<listeners>
+		<listener class-name="framework.testng.test.TestListener" />
+</listeners> 
+  <test name="Functional" >
+    <classes>
+       <class name="test.Runner.FunctionalRunnerClass" />
+    </classes>
+  </test>
+ 
+</suite>
