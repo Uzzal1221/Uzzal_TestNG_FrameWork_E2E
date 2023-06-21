@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="coading.challanges.PalindromeNumber">
+      <class name="coading.review.inter.JoinTwoString">
         <methods>
-          <include name="getMaxSal"/>
+          <include name="getSplit"/>
         </methods>
-      </class> <!-- coading.challanges.PalindromeNumber -->
+      </class> <!-- coading.review.inter.JoinTwoString -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

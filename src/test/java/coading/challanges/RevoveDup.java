@@ -15,9 +15,9 @@ public class RevoveDup {
 		
 		List<Integer> list = new ArrayList<Integer>(Arrays.asList(12,22,21,13,14,21,21));
 		
-		//List newdup= list.stream().distinct().collect(Collectors.toList());
+		List newdup= list.stream().distinct().collect(Collectors.toList());
 		//Collections.sort(newdup);
-		//System.out.println(newdup);
+		System.out.println(newdup);
 
 		
 		
@@ -30,11 +30,11 @@ public class RevoveDup {
 		for(int i=0;i<salary.length;i++) {
 			for(int j=i+1;j<salary.length;j++) {
 				if(salary[i]==salary[j]) {
-					//System.out.println(salary[i]);
+					System.out.println(salary[i]);
 					int size=salary.length;
-					Arrays.sort(salary);
+					//Arrays.sort(salary);
 					int MaxSal= salary[size-1];
-					System.out.println(MaxSal);
+					//System.out.println(MaxSal);
 				}
 				
 			}
